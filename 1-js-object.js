@@ -32,7 +32,7 @@ const machine = {
         this.logConsumption(potion)
         if (potion.type == "magical") {
           this.enchantmentLevel += Math.floor(Math.random() * 21) + 10; //20 - 60
-          this.logQuote(person, "Ahhhhh! Whats happening to my body?");
+          this.logQuote(person, "Ahhhhh! What's happening to my body?");
           this.setState("BEAST_MODE");
         } else {
           this.enchantmentLevel -= Math.floor(this.enchantmentLevel * 0.5);

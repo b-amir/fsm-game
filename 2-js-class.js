@@ -13,7 +13,7 @@ class WitcherMachine {
         consume: this.consume.bind(this),
       },
       BEAST_MODE: {
-        speak: this.speak.bind(this, "Holy water cannot help you now, Thousand armies couldn't keep me out! ⚔️"),
+        speak: this.speak.bind(this, "Holy water cannot help you now, Thousand armies couldn't keep me out! 👿"),
         consume: this.consume.bind(this),
         throwup: this.throwup.bind(this),
         passout: this.passout.bind(this),
@@ -63,7 +63,7 @@ class WitcherMachine {
           return;
         }
       } else if (this.state === "POWERFUL") {
-        this.logQuote("Ahhhhh! Whats happening to my body? 😵‍💫");
+        this.logQuote("Ahhhhh! What's happening to my body? 😵‍💫");
         this.setState("BEAST_MODE");
         return;
       } else {
