@@ -33,9 +33,22 @@ The project is divided into three main parts:
 
 - **JavaScript Class Implementation (`2-js-class.js`)**: This file shows a more structured approach using classes to encapsulate the finite state machine logic for the Witcher character.
 
+The finite state machine directs actions to the appropriate states automatically. Even repeating an action can lead to different states:
+
+```javascript
+Geralt.dispatch("speak");
+Geralt.dispatch("consume", mysticMoonshine);
+Geralt.dispatch("consume", dragonfireBrew);
+Geralt.dispatch("consume", dragonfireBrew);
+Geralt.dispatch("wake");
+Geralt.dispatch("consume", revitalizingTonic);
+Geralt.dispatch("fly");
+Geralt.dispatch("consume", revitalizingTonic);
+```
+
 <br/>
 <div>
-<img src="assets/js-console.png" alt="JS Console" style="display: block; margin-left: auto; margin-right: auto; width: 80%;">
+<img src="assets/js-console.png" alt="JS Console" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
 </div>
 <br/>
 
