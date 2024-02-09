@@ -1,6 +1,6 @@
 # Finite State Machine Game
 
-![Intro Image]](assets/header.png)
+![Intro Image](assets/header.png)
 
 ## Overview
 
@@ -29,6 +29,8 @@ The project is divided into three main parts:
 - **XState Implementation (`3-xstate.mjs`)**: This file utilizes the XState library to define the finite state machine as a statechart. It includes actions and guards to handle the transitions between states based on the character's enchantment level.
 
 ![XState Animated GIF](assets/xstate-animated.gif)
+
+[Live XState Demo](https://stately.ai/registry/editor/90cf5b42-45d6-4568-b9b1-8d9d647456fd?mode=Design&machineId=1c4db223-7e2c-441e-8e0a-0903238df3d0)
 
 Each part of the project demonstrates a different way to implement the same concept, providing a comparison of approaches.
 
