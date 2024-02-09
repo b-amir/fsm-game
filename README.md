@@ -9,7 +9,7 @@
 
 This repository is a fun exploration of **finite state machines**, featuring a **simple game inspired by the Witcher series**. Using JavaScript and the XState library, we model character behavior through potion effects. The machine is built in 3 ways: 1- as a JavaScript object, 2- with class syntax, and 3- using the XState library, offering a hands-on look at finite state machines in action.
 
-**tl;dr**: Player tries different potions, end up in different states (might even die!).
+<span style="color: #AC45BD">🟣 **tl;dr**:</span> A player tries different potions and ends up in different states (and might even die!).
 
 <br/>
 <div>
