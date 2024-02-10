@@ -48,7 +48,7 @@ Geralt.dispatch("consume", revitalizingTonic);
 
 <br/>
 <div>
-<img src="assets/js-console.png" alt="JS Console" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+<img src="assets/js-console.png" alt="JS Console" style="display: flex; margin-left: auto; margin-right: auto; width: 80%;  ">
 </div>
 <br/>
 
